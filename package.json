@@ -1,0 +1,18 @@
+{
+  "name": "email-verifier",
+  "version": "1.0.0",
+  "description": "Checks if the email is valid or not",
+  "keywords": [
+    "email",
+    "checker",
+    "valid",
+    "emails"
+  ],
+  "license": "ISC",
+  "author": "ferpalma21",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
