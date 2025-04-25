@@ -46,3 +46,4 @@ Parameters:
 | `email`          | `string`  | —       | The email address to verify                                  |
 | `options`        | `object`  | `{}`    | Options object to customize verification behavior            |
 | `options.checkInbox` | `boolean` | `false` | Whether to check if the inbox exists via SMTP (optional)     |
+| `options.checkMX` | `boolean` | `false` | Whether to check if the inbox exists via SMTP (optional)     |
