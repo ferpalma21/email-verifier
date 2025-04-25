@@ -36,9 +36,13 @@ const { verifyEmail } = require('email-verifier');
 ## 📘 API
 
 `verifyEmail(email, options)`
+
 Performs full email verification.
+
 Parameters:
-Name | Type | Default | Description
-email | string | — | The email address to verify
-options.checkInbox | boolean | false | Whether to check if the inbox exists via SMTP
-options.checkMX | boolean | false | Whether to check if the inbox exists via SMTP
+
+| Name             | Type      | Default | Description                                                  |
+|------------------|-----------|---------|--------------------------------------------------------------|
+| `email`          | `string`  | —       | The email address to verify                                  |
+| `options`        | `object`  | `{}`    | Options object to customize verification behavior            |
+| `options.checkInbox` | `boolean` | `false` | Whether to check if the inbox exists via SMTP (optional)     |
